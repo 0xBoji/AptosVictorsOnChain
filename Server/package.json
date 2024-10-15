@@ -1,0 +1,16 @@
+{
+	"name": "server",
+	"module": "index.ts",
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"body-parser": "^1.20.3",
+		"dotenv": "^16.4.5",
+		"express": "^4.21.1",
+		"node-telegram-bot-api": "^0.66.0"
+	}
+}
